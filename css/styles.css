@@ -127,6 +127,9 @@ body {
 }
 
 /* Наша команда */
+.team {
+  background-color: var(--secondary-light-bg-color);
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -195,6 +198,7 @@ body {
   line-height: 1.62;
   color: var(--title-font-color);
   background-color: var(--secondary-light-bg-color);
+  cursor: pointer;
 }
 .service-button:hover,
 .service-button:focus {
